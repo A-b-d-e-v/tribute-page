@@ -1,0 +1,67 @@
+html {
+  font-size: 17px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-family:  sans-serif;
+  font-size: 0.8rem;
+  margin: 0;
+  background-color: #000000;
+  color: #fff;
+}
+
+div {
+  max-width: 900px;
+  min-width: 200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  letter-spacing: 0.5px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding: 1rem 0 0 0;
+}
+
+p {
+  font-size: 0.9rem;
+  padding: 0 0 1rem 0;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 4/2;
+  border-radius: 10px;
+  margin: 0 0 1.5rem 3px;
+}
+
+#img-caption {
+  padding-left: 0.2rem;
+}
+
+ul > li {
+  padding: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #1466ff;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  border-radius: 10px 5px;
+}
